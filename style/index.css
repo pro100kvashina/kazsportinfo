@@ -1,0 +1,89 @@
+/* KAZsport.info */
+/* line 3, C:/Users/HP/Desktop/kazsport.info/assets/style/index.scss */
+.index .content {
+  margin-top: 14px; }
+  /* line 5, C:/Users/HP/Desktop/kazsport.info/assets/style/index.scss */
+  .index .content .minw > div {
+    display: inline-block;
+    vertical-align: top; }
+  /* line 9, C:/Users/HP/Desktop/kazsport.info/assets/style/index.scss */
+  .index .content .column_left {
+    width: 670px;
+    margin-right: 16px; }
+    /* line 12, C:/Users/HP/Desktop/kazsport.info/assets/style/index.scss */
+    .index .content .column_left .news {
+      height: 330px;
+      font-size: 0;
+      margin-bottom: 15px; }
+      /* line 16, C:/Users/HP/Desktop/kazsport.info/assets/style/index.scss */
+      .index .content .column_left .news .column {
+        margin-top: 15px;
+        display: inline-block;
+        width: 159px;
+        margin-right: 11px;
+        font-size: 14px;
+        vertical-align: top; }
+        /* line 23, C:/Users/HP/Desktop/kazsport.info/assets/style/index.scss */
+        .index .content .column_left .news .column:last-child {
+          margin: 15px 0 0 0; }
+        /* line 26, C:/Users/HP/Desktop/kazsport.info/assets/style/index.scss */
+        .index .content .column_left .news .column img {
+          margin-bottom: 10px;
+          width: 159px;
+          /*Уьрать*/ }
+        /* line 30, C:/Users/HP/Desktop/kazsport.info/assets/style/index.scss */
+        .index .content .column_left .news .column strong {
+          font-family: "Arial";
+          font-size: 12px;
+          line-height: 12px; }
+        /* line 35, C:/Users/HP/Desktop/kazsport.info/assets/style/index.scss */
+        .index .content .column_left .news .column p {
+          line-height: 15px;
+          padding: 0;
+          margin: 5px 0; }
+        /* line 40, C:/Users/HP/Desktop/kazsport.info/assets/style/index.scss */
+        .index .content .column_left .news .column a {
+          font-size: 10px;
+          font-family: "Arial";
+          text-transform: uppercase;
+          font-weight: bold; }
+      /* line 47, C:/Users/HP/Desktop/kazsport.info/assets/style/index.scss */
+      .index .content .column_left .news .head {
+        position: relative; }
+        /* line 49, C:/Users/HP/Desktop/kazsport.info/assets/style/index.scss */
+        .index .content .column_left .news .head .more {
+          text-transform: uppercase;
+          font-size: 10px;
+          position: absolute;
+          right: 0;
+          color: #fff;
+          bottom: 3px; }
+          /* line 56, C:/Users/HP/Desktop/kazsport.info/assets/style/index.scss */
+          .index .content .column_left .news .head .more a {
+            color: #fff;
+            background: #cf0000;
+            padding: 1px 10px;
+            border: 1px solid transparent; }
+            /* line 61, C:/Users/HP/Desktop/kazsport.info/assets/style/index.scss */
+            .index .content .column_left .news .head .more a:hover {
+              border: 1px solid transparent;
+              background: #DA0303; }
+        /* line 67, C:/Users/HP/Desktop/kazsport.info/assets/style/index.scss */
+        .index .content .column_left .news .head .border {
+          background: #cf0000;
+          height: 3px;
+          width: 100%; }
+    /* line 74, C:/Users/HP/Desktop/kazsport.info/assets/style/index.scss */
+    .index .content .column_left h1 {
+      text-transform: uppercase;
+      font-size: 20px; }
+  /* line 79, C:/Users/HP/Desktop/kazsport.info/assets/style/index.scss */
+  .index .content .column_center {
+    width: 190px;
+    background: #eee;
+    margin-right: 16px; }
+  /* line 84, C:/Users/HP/Desktop/kazsport.info/assets/style/index.scss */
+  .index .content .column_right {
+    width: 250px; }
+
+/*# sourceMappingURL=index.css.map */

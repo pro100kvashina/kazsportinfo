@@ -1,0 +1,239 @@
+/* KAZsport.info */
+/* line 2, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+body {
+  background: #fff;
+  font-family: 'Open Sans', sans-serif; }
+  /* line 5, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+  body input {
+    outline: none; }
+  /* line 8, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+  body h1 {
+    padding: 0;
+    margin: 0; }
+
+/* line 13, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+.clear {
+  clear: both; }
+
+/* line 16, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+.left {
+  float: left; }
+
+/* line 19, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+.right {
+  float: right; }
+
+/* line 22, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+a {
+  color: #cf0000;
+  font-size: 10px;
+  transition: all ease 0.2s;
+  text-decoration: none;
+  border-bottom: 1px solid transparent; }
+
+/* line 29, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+a:hover {
+  color: #cf0000;
+  border-bottom: 1px solid #cf0000; }
+
+/* line 33, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+.page {
+  padding: 20px 0;
+  /***subscription***/ }
+  /* line 35, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+  .page .minw {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative; }
+  /* line 41, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+  .page .header {
+    z-index: 2;
+    height: 62px; }
+    /* line 44, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+    .page .header .logo {
+      top: 14px;
+      position: absolute; }
+      /* line 48, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+      .page .header .logo a:hover {
+        border-bottom: 1px solid transparent; }
+    /* line 53, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+    .page .header .soc {
+      position: absolute;
+      right: 20px;
+      top: 0; }
+    /* line 58, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+    .page .header .menu {
+      position: absolute;
+      right: 275px;
+      top: 17px; }
+      /* line 62, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+      .page .header .menu li {
+        list-style: none;
+        display: inline-block;
+        font-size: 12px;
+        margin: 0 10px;
+        position: relative; }
+        /* line 68, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+        .page .header .menu li:after {
+          content: "|";
+          position: absolute;
+          right: -15px; }
+        /* line 73, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+        .page .header .menu li:last-child:after {
+          content: ""; }
+        /* line 76, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+        .page .header .menu li a {
+          font-size: 12px;
+          font-family: "Arial"; }
+    /* line 82, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+    .page .header .search {
+      position: absolute;
+      right: 20px;
+      top: 30px; }
+      /* line 86, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+      .page .header .search .wrapper {
+        position: relative; }
+        /* line 88, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+        .page .header .search .wrapper input {
+          width: 230px;
+          height: 27px;
+          border: 1px solid #bababa;
+          background: #f8f8f8;
+          padding: 0 10px;
+          font-size: 12px;
+          color: #9a9a9a;
+          font-style: italic; }
+        /* line 98, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+        .page .header .search .wrapper .btn_search {
+          background: url("../images/loop.png") no-repeat;
+          width: 32px;
+          height: 28px;
+          position: absolute;
+          right: 0;
+          top: 0;
+          border: 0;
+          padding: 0; }
+  /* line 112, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+  .page .galleries .menu {
+    margin-top: 15px;
+    background: url("../images/grad_menu.png") repeat-x;
+    height: 45px;
+    z-index: 1; }
+    /* line 117, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+    .page .galleries .menu ul {
+      padding: 0;
+      margin: 0;
+      text-align: center; }
+      /* line 121, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+      .page .galleries .menu ul li {
+        display: inline-block;
+        list-style: none;
+        margin: 0 18px; }
+        /* line 125, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+        .page .galleries .menu ul li a {
+          text-transform: uppercase;
+          font-size: 15px;
+          font-weight: bold;
+          color: #fff;
+          line-height: 45px; }
+          /* line 131, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+          .page .galleries .menu ul li a:hover {
+            border-bottom: 1px solid transparent;
+            color: #e0e0e0; }
+  /* line 141, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+  .page .subscription {
+    background: #e4e4e4;
+    height: 190px;
+    padding: 15px;
+    margin-bottom: 19px; }
+    /* line 146, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+    .page .subscription h1 {
+      padding: 0;
+      margin: 0;
+      font-size: 16px;
+      text-transform: uppercase; }
+    /* line 152, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+    .page .subscription p {
+      font-size: 12px; }
+    /* line 155, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+    .page .subscription input {
+      width: 205px;
+      padding: 0 5px;
+      font-family: "Arial";
+      font-size: 12px;
+      height: 24px;
+      border: 1px solid #bababa;
+      margin-bottom: 7px;
+      color: #bababa; }
+    /* line 165, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+    .page .subscription .btn {
+      width: 100px;
+      height: 30px;
+      background: #cf0000;
+      font-size: 13px;
+      font-weight: bold;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      transition: all ease 0.2s; }
+      /* line 175, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+      .page .subscription .btn:hover {
+        background: #DA0303; }
+    /* line 179, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+    .page .subscription span {
+      color: #cf0000;
+      font-size: 12px;
+      font-family: "Аrial"; }
+  /* line 186, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+  .page .popular .head {
+    border-bottom: 3px solid #cf0000;
+    margin-bottom: 15px; }
+    /* line 189, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+    .page .popular .head span {
+      font-size: 20px;
+      text-transform: uppercase;
+      font-weight: bold;
+      cursor: pointer; }
+    /* line 195, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+    .page .popular .head span.active {
+      color: #cf0000; }
+  /* line 200, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+  .page .popular .wrapper_short_news .short_news {
+    font-family: "Arial";
+    border-bottom: 1px dotted #000;
+    padding-bottom: 15px;
+    margin-bottom: 15px; }
+    /* line 205, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+    .page .popular .wrapper_short_news .short_news:last-child {
+      border: none;
+      padding-bottom: 0;
+      margin-bottom: 8px; }
+    /* line 210, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+    .page .popular .wrapper_short_news .short_news i {
+      font-size: 11px;
+      display: block; }
+    /* line 214, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+    .page .popular .wrapper_short_news .short_news p {
+      font-size: 12px;
+      font-weight: bold;
+      padding: 0;
+      margin: 0;
+      display: inline;
+      margin-right: 5px; }
+    /* line 222, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+    .page .popular .wrapper_short_news .short_news a {
+      color: #cf0000;
+      font-size: 10px;
+      text-transform: uppercase; }
+  /* line 229, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+  .page .popular .more {
+    background: #cf0000;
+    color: #fff;
+    padding: 1px 10px;
+    text-transform: uppercase; }
+    /* line 234, C:/Users/HP/Desktop/kazsport.info/assets/style/base.scss */
+    .page .popular .more:hover {
+      background: #DA0303; }
+
+/*# sourceMappingURL=base.css.map */
